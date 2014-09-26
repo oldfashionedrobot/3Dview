@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>947FB7BD-5B9D-43D3-9521-236779D20A10</string>
+	<key>IDESourceControlProjectName</key>
+	<string>3DView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E2761F1D2C0A75F5C5072E93F170D8DF1214BB7A</key>
+		<string>github.com:oldfashionedrobot/3Dview.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>3DView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E2761F1D2C0A75F5C5072E93F170D8DF1214BB7A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:oldfashionedrobot/3Dview.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E2761F1D2C0A75F5C5072E93F170D8DF1214BB7A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E2761F1D2C0A75F5C5072E93F170D8DF1214BB7A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>3DView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
