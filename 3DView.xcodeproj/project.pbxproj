@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C16898E519E5E2C90015119C /* dockScene.dae in Resources */ = {isa = PBXBuildFile; fileRef = C16898E419E5E2C90015119C /* dockScene.dae */; };
+		C16898EA19E5E4630015119C /* DockSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16898E919E5E4630015119C /* DockSceneController.m */; };
+		C16898ED19E5E5DE0015119C /* StageSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16898EC19E5E5DE0015119C /* StageSceneController.m */; };
 		C17572A819D327FE005DD4C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C17572A719D327FE005DD4C5 /* main.m */; };
 		C17572AB19D327FE005DD4C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C17572AA19D327FE005DD4C5 /* AppDelegate.m */; };
-		C17572AE19D327FE005DD4C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17572AD19D327FE005DD4C5 /* ViewController.m */; };
+		C17572AE19D327FE005DD4C5 /* SnowSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17572AD19D327FE005DD4C5 /* SnowSceneController.m */; };
 		C17572B119D327FE005DD4C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17572AF19D327FE005DD4C5 /* Main.storyboard */; };
 		C17572B319D327FE005DD4C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17572B219D327FE005DD4C5 /* Images.xcassets */; };
 		C17572B619D327FE005DD4C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17572B419D327FE005DD4C5 /* LaunchScreen.xib */; };
 		C17572C219D327FE005DD4C5 /* _DViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C17572C119D327FE005DD4C5 /* _DViewTests.m */; };
 		C17572CC19D32D07005DD4C5 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17572CB19D32D07005DD4C5 /* SceneKit.framework */; };
 		C17572CE19D32D0D005DD4C5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17572CD19D32D0D005DD4C5 /* QuartzCore.framework */; };
-		C1D3171019D48BC900149B69 /* sphere.dae in Resources */ = {isa = PBXBuildFile; fileRef = C1D3170F19D48BC900149B69 /* sphere.dae */; };
+		C1D9FCAD19E4590A00920828 /* sphere.dae in Resources */ = {isa = PBXBuildFile; fileRef = C1D9FCAC19E4590A00920828 /* sphere.dae */; };
+		C1F1B67819EED0D000ED441B /* stageScene.dae in Resources */ = {isa = PBXBuildFile; fileRef = C1F1B67719EED0D000ED441B /* stageScene.dae */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C16898E419E5E2C90015119C /* dockScene.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = dockScene.dae; sourceTree = "<group>"; };
+		C16898E919E5E4630015119C /* DockSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DockSceneController.m; sourceTree = "<group>"; };
+		C16898EB19E5E4780015119C /* DockSceneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DockSceneController.h; sourceTree = "<group>"; };
+		C16898EC19E5E5DE0015119C /* StageSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageSceneController.m; sourceTree = "<group>"; };
+		C16898EE19E5E6120015119C /* StageSceneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StageSceneController.h; sourceTree = "<group>"; };
 		C17572A219D327FE005DD4C5 /* 3DView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17572A619D327FE005DD4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C17572A719D327FE005DD4C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C17572A919D327FE005DD4C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C17572AA19D327FE005DD4C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C17572AC19D327FE005DD4C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C17572AD19D327FE005DD4C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C17572AC19D327FE005DD4C5 /* SnowSceneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnowSceneController.h; sourceTree = "<group>"; };
+		C17572AD19D327FE005DD4C5 /* SnowSceneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowSceneController.m; sourceTree = "<group>"; };
 		C17572B019D327FE005DD4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C17572B219D327FE005DD4C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C17572B519D327FE005DD4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -45,7 +54,8 @@
 		C17572C119D327FE005DD4C5 /* _DViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DViewTests.m; sourceTree = "<group>"; };
 		C17572CB19D32D07005DD4C5 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		C17572CD19D32D0D005DD4C5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		C1D3170F19D48BC900149B69 /* sphere.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = sphere.dae; sourceTree = "<group>"; };
+		C1D9FCAC19E4590A00920828 /* sphere.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = sphere.dae; sourceTree = "<group>"; };
+		C1F1B67719EED0D000ED441B /* stageScene.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = stageScene.dae; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,11 +101,17 @@
 		C17572A419D327FE005DD4C5 /* 3DView */ = {
 			isa = PBXGroup;
 			children = (
-				C1D3170F19D48BC900149B69 /* sphere.dae */,
+				C1F1B67719EED0D000ED441B /* stageScene.dae */,
+				C16898EE19E5E6120015119C /* StageSceneController.h */,
+				C16898EC19E5E5DE0015119C /* StageSceneController.m */,
+				C16898EB19E5E4780015119C /* DockSceneController.h */,
+				C16898E919E5E4630015119C /* DockSceneController.m */,
+				C16898E419E5E2C90015119C /* dockScene.dae */,
+				C1D9FCAC19E4590A00920828 /* sphere.dae */,
 				C17572A919D327FE005DD4C5 /* AppDelegate.h */,
 				C17572AA19D327FE005DD4C5 /* AppDelegate.m */,
-				C17572AC19D327FE005DD4C5 /* ViewController.h */,
-				C17572AD19D327FE005DD4C5 /* ViewController.m */,
+				C17572AC19D327FE005DD4C5 /* SnowSceneController.h */,
+				C17572AD19D327FE005DD4C5 /* SnowSceneController.m */,
 				C17572AF19D327FE005DD4C5 /* Main.storyboard */,
 				C17572B219D327FE005DD4C5 /* Images.xcassets */,
 				C17572B419D327FE005DD4C5 /* LaunchScreen.xib */,
@@ -210,9 +226,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F1B67819EED0D000ED441B /* stageScene.dae in Resources */,
 				C17572B119D327FE005DD4C5 /* Main.storyboard in Resources */,
-				C1D3171019D48BC900149B69 /* sphere.dae in Resources */,
+				C1D9FCAD19E4590A00920828 /* sphere.dae in Resources */,
 				C17572B619D327FE005DD4C5 /* LaunchScreen.xib in Resources */,
+				C16898E519E5E2C90015119C /* dockScene.dae in Resources */,
 				C17572B319D327FE005DD4C5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,9 +249,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17572AE19D327FE005DD4C5 /* ViewController.m in Sources */,
+				C17572AE19D327FE005DD4C5 /* SnowSceneController.m in Sources */,
 				C17572AB19D327FE005DD4C5 /* AppDelegate.m in Sources */,
+				C16898ED19E5E5DE0015119C /* StageSceneController.m in Sources */,
 				C17572A819D327FE005DD4C5 /* main.m in Sources */,
+				C16898EA19E5E4630015119C /* DockSceneController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7Ql-xF-FI0">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tab Bar Controller-->
+        <scene sceneID="caa-hb-Aii">
+            <objects>
+                <tabBarController id="7Ql-xF-FI0" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="cgN-UY-DLW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="zSi-TE-NRO"/>
+                        <segue destination="uaR-fl-TtU" kind="relationship" relationship="viewControllers" id="QBn-yv-h58"/>
+                        <segue destination="UIk-re-vM0" kind="relationship" relationship="viewControllers" id="K8v-vH-g3X"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="50G-Bw-plJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-900" y="-638"/>
+        </scene>
+        <!--Snow-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="SnowSceneController" sceneMemberID="viewController">
                     <sceneKitView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="KnS-1j-xzm">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -17,6 +37,10 @@
                             <outletCollection property="gestureRecognizers" destination="WQV-8P-QQg" appends="YES" id="Nmk-Pn-tWS"/>
                         </connections>
                     </sceneKitView>
+                    <tabBarItem key="tabBarItem" title="Snow" id="DVp-BR-TAQ">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-17"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="panRecognizer" destination="WQV-8P-QQg" id="WAg-2l-iAD"/>
                     </connections>
@@ -28,6 +52,61 @@
                     </connections>
                 </panGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="-80" y="575"/>
+        </scene>
+        <!--Dock Scene-->
+        <scene sceneID="yDv-Mn-Hnw">
+            <objects>
+                <viewController title="Dock Scene" id="uaR-fl-TtU" customClass="DockSceneController" sceneMemberID="viewController">
+                    <sceneKitView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="feY-em-o0f">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="jQK-gS-p2u" appends="YES" id="9st-DU-xD7"/>
+                        </connections>
+                    </sceneKitView>
+                    <tabBarItem key="tabBarItem" title="Dock" id="bWr-ik-ja0">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-17"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ryO-n7-UNM" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="jQK-gS-p2u">
+                    <connections>
+                        <action selector="scrolly:" destination="uaR-fl-TtU" id="URG-mX-5X0"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-80" y="575"/>
+        </scene>
+        <!--Stage Scene-->
+        <scene sceneID="rOi-rQ-6PI">
+            <objects>
+                <viewController title="Dock Scene" id="UIk-re-vM0" userLabel="Stage Scene" customClass="StageSceneController" sceneMemberID="viewController">
+                    <sceneKitView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="L64-Xf-UFW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="76i-iQ-7aY" appends="YES" id="ADp-4V-HT5"/>
+                        </connections>
+                    </sceneKitView>
+                    <tabBarItem key="tabBarItem" title="Stage" id="bI4-pD-QcK">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-17"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tn3-Wz-IbW" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="76i-iQ-7aY">
+                    <connections>
+                        <action selector="scrolly:" destination="UIk-re-vM0" id="4Or-Lk-PHV"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-80" y="575"/>
         </scene>
     </scenes>
 </document>
